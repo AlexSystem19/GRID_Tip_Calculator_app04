@@ -23,8 +23,8 @@
             <Button Text="15%"  Margin="5" Grid.Row="5" Grid.Column="0"/>
             <Button Text="20%"  Margin="5" Grid.Row="5" Grid.Column="1"/>
 
-            <Button x:Name="roundDown" Margin="5" Text="Round Down" Grid.Row="6" Grid.Column="0"/>
-            <Button x:Name="roundUp"   Margin="5" Text="Round Up" Grid.Row="6" Grid.Column="1"/>
+            <Button x:Name="roundDown" Margin="5" Text="Round Down" Grid.Row="6" Grid.Column="0" Clicked="roundDown_Clicked"/>
+            <Button x:Name="roundUp"   Margin="5" Text="Round Up" Grid.Row="6" Grid.Column="1" Clicked="roundUp_Clicked"/>
 
         </Grid>
     </ContentPage>

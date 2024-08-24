@@ -9,7 +9,15 @@
             InitializeComponent();
         }
 
-       
+        private void roundDown_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void roundUp_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
